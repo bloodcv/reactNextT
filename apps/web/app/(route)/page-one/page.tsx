@@ -1,3 +1,8 @@
+// @ts-nocheck
+"use client"
+
+import { useState } from "react";
+
 export default function PageOne() {
 
     return (
@@ -13,7 +18,8 @@ export default function PageOne() {
           This is page one
         </p>
   
-  
+        <br />
+
       </div>
   
     );
